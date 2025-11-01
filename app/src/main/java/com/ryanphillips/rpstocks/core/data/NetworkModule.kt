@@ -1,6 +1,5 @@
 package com.ryanphillips.rpstocks.core.data
 
-import com.ryanphillips.rpstocks.stock.data.StockService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -29,11 +28,5 @@ object NetworkModule {
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
-    }
-
-    @Provides
-    @Singleton
-    fun provideApiService(retrofit: Retrofit): StockService {
-        return retrofit.create(StockService::class.java)
     }
 }
