@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.ryanphillips.rpstocks.core.designsystem.theme.RPStocksTheme
+import com.ryanphillips.rpstocks.core.presentation.designsystem.theme.RPStocksTheme
 import com.ryanphillips.rpstocks.portfolio.presentation.PortfolioScreenRoot
 import dagger.hilt.android.AndroidEntryPoint
 

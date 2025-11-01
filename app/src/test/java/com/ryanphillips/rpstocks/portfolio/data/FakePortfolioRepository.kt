@@ -1,7 +1,7 @@
 package com.ryanphillips.rpstocks.portfolio.data
 
-import com.ryanphillips.rpstocks.core.data.DataError
-import com.ryanphillips.rpstocks.core.data.Result
+import com.ryanphillips.rpstocks.core.domain.DataError
+import com.ryanphillips.rpstocks.core.domain.Result
 import com.ryanphillips.rpstocks.portfolio.data.model.StockResponse
 import com.ryanphillips.rpstocks.portfolio.data.model.toStockDto
 import com.ryanphillips.rpstocks.portfolio.domain.PortfolioDto

@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.data
+package com.ryanphillips.rpstocks.core.di
 
 import dagger.Module
 import dagger.Provides

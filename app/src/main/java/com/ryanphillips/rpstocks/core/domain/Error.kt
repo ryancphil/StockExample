@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.data
+package com.ryanphillips.rpstocks.core.domain
 
 // MyError Interface
 interface MyError

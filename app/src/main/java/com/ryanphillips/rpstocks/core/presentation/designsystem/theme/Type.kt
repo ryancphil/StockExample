@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.designsystem.theme
+package com.ryanphillips.rpstocks.core.presentation.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

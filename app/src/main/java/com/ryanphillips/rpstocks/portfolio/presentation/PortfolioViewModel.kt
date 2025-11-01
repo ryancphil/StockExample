@@ -2,8 +2,8 @@ package com.ryanphillips.rpstocks.portfolio.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ryanphillips.rpstocks.core.data.DataError
-import com.ryanphillips.rpstocks.core.data.Result
+import com.ryanphillips.rpstocks.core.domain.DataError
+import com.ryanphillips.rpstocks.core.domain.Result
 import com.ryanphillips.rpstocks.portfolio.domain.PortfolioDto
 import com.ryanphillips.rpstocks.portfolio.domain.PortfolioRepository
 import com.ryanphillips.rpstocks.portfolio.presentation.model.PortfolioAction

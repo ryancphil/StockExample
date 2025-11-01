@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.designsystem.theme
+package com.ryanphillips.rpstocks.core.presentation.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

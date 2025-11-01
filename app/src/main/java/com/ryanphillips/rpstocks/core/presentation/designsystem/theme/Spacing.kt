@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.designsystem.theme
+package com.ryanphillips.rpstocks.core.presentation.designsystem.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

@@ -12,7 +12,11 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeContent
+import androidx.compose.foundation.layout.safeContentPadding
 import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.BottomAppBar
@@ -28,7 +32,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.ryanphillips.rpstocks.core.designsystem.theme.RPStocksTheme
+import com.ryanphillips.rpstocks.core.presentation.designsystem.theme.RPStocksTheme
 import com.ryanphillips.rpstocks.portfolio.presentation.component.StockRowItem
 import com.ryanphillips.rpstocks.portfolio.presentation.model.PortfolioAction
 import com.ryanphillips.rpstocks.portfolio.presentation.model.PortfolioState

@@ -1,5 +1,7 @@
 package com.ryanphillips.rpstocks.core.data
 
+import com.ryanphillips.rpstocks.core.domain.DataError
+import com.ryanphillips.rpstocks.core.domain.Result
 import kotlinx.coroutines.CancellationException
 import retrofit2.Response
 

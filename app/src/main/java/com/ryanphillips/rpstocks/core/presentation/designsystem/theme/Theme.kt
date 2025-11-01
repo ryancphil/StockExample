@@ -1,4 +1,4 @@
-package com.ryanphillips.rpstocks.core.designsystem.theme
+package com.ryanphillips.rpstocks.core.presentation.designsystem.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

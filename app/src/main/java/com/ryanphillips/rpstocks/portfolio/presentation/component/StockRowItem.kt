@@ -12,8 +12,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
-import com.ryanphillips.rpstocks.core.designsystem.theme.RPStocksTheme
-import com.ryanphillips.rpstocks.core.designsystem.theme.spacing
+import com.ryanphillips.rpstocks.core.presentation.designsystem.theme.RPStocksTheme
+import com.ryanphillips.rpstocks.core.presentation.designsystem.theme.spacing
 
 @Composable
 fun StockRowItem(
